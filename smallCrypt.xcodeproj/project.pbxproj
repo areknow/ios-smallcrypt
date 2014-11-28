@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510A6E6C1A28DADC002006B7 /* BEEP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 510A6E681A28DADC002006B7 /* BEEP.mp3 */; };
+		510A6E6D1A28DADC002006B7 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A6E691A28DADC002006B7 /* icon58.png */; };
+		510A6E6E1A28DADC002006B7 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A6E6A1A28DADC002006B7 /* icon80.png */; };
+		510A6E6F1A28DADC002006B7 /* iconNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 510A6E6B1A28DADC002006B7 /* iconNew.png */; };
+		51316B0918369E5100FB9AC3 /* EncryptTableControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51316B0818369E5100FB9AC3 /* EncryptTableControl.mm */; };
+		51316B2F1836DE1700FB9AC3 /* DecryptTableControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 51316B2E1836DE1700FB9AC3 /* DecryptTableControl.m */; };
+		51316B3A1836E1D200FB9AC3 /* WECodeScannerMatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51316B331836E1D200FB9AC3 /* WECodeScannerMatchView.m */; };
+		51316B3B1836E1D200FB9AC3 /* WECodeScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51316B351836E1D200FB9AC3 /* WECodeScannerView.m */; };
+		51316B3C1836E1D200FB9AC3 /* WESoundHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51316B371836E1D200FB9AC3 /* WESoundHelper.m */; };
+		51316B3D1836E1D200FB9AC3 /* WEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51316B391836E1D200FB9AC3 /* WEViewController.m */; };
+		51316B4A1836EB3600FB9AC3 /* DataMatrix.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51316B431836EB3600FB9AC3 /* DataMatrix.mm */; };
+		51316B4B1836EB3600FB9AC3 /* QR_Encode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51316B441836EB3600FB9AC3 /* QR_Encode.cpp */; };
+		51316B4C1836EB3600FB9AC3 /* QREncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51316B491836EB3600FB9AC3 /* QREncoder.mm */; };
+		51316B4F1836ECA400FB9AC3 /* QRCodeEncoderDemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51316B4D1836ECA400FB9AC3 /* QRCodeEncoderDemoViewController.mm */; };
+		516DFD4717E3C29E00AF2E28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516DFD4617E3C29E00AF2E28 /* Foundation.framework */; };
+		516DFD4917E3C29E00AF2E28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516DFD4817E3C29E00AF2E28 /* CoreGraphics.framework */; };
+		516DFD4B17E3C29E00AF2E28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516DFD4A17E3C29E00AF2E28 /* UIKit.framework */; };
+		516DFD5117E3C29E00AF2E28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 516DFD4F17E3C29E00AF2E28 /* InfoPlist.strings */; };
+		516DFD5317E3C29E00AF2E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 516DFD5217E3C29E00AF2E28 /* main.m */; };
+		516DFD5717E3C29E00AF2E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516DFD5617E3C29E00AF2E28 /* AppDelegate.m */; };
+		516DFD5A17E3C29E00AF2E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516DFD5817E3C29E00AF2E28 /* Main.storyboard */; };
+		516DFD6217E3C29E00AF2E28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516DFD6117E3C29E00AF2E28 /* Images.xcassets */; };
+		516DFD6917E3C29E00AF2E28 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516DFD6817E3C29E00AF2E28 /* XCTest.framework */; };
+		516DFD6A17E3C29E00AF2E28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516DFD4617E3C29E00AF2E28 /* Foundation.framework */; };
+		516DFD6B17E3C29E00AF2E28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516DFD4A17E3C29E00AF2E28 /* UIKit.framework */; };
+		516DFD7317E3C29E00AF2E28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 516DFD7117E3C29E00AF2E28 /* InfoPlist.strings */; };
+		516DFD7517E3C29E00AF2E28 /* smallCryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 516DFD7417E3C29E00AF2E28 /* smallCryptTests.m */; };
+		51F54DD017E610B600FABF14 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F54DCF17E610B600FABF14 /* MessageUI.framework */; };
+		51F54DD217E610D600FABF14 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F54DD117E610D600FABF14 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516DFD6C17E3C29E00AF2E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516DFD3B17E3C29E00AF2E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516DFD4217E3C29E00AF2E28;
+			remoteInfo = smallCrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		510A6E681A28DADC002006B7 /* BEEP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BEEP.mp3; sourceTree = "<group>"; };
+		510A6E691A28DADC002006B7 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		510A6E6A1A28DADC002006B7 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		510A6E6B1A28DADC002006B7 /* iconNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconNew.png; sourceTree = "<group>"; };
+		51316B0718369E5100FB9AC3 /* EncryptTableControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptTableControl.h; sourceTree = "<group>"; };
+		51316B0818369E5100FB9AC3 /* EncryptTableControl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EncryptTableControl.mm; sourceTree = "<group>"; };
+		51316B2D1836DE1700FB9AC3 /* DecryptTableControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecryptTableControl.h; sourceTree = "<group>"; };
+		51316B2E1836DE1700FB9AC3 /* DecryptTableControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecryptTableControl.m; sourceTree = "<group>"; };
+		51316B311836E1D200FB9AC3 /* WECodeScanner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WECodeScanner-Prefix.pch"; sourceTree = "<group>"; };
+		51316B321836E1D200FB9AC3 /* WECodeScannerMatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WECodeScannerMatchView.h; sourceTree = "<group>"; };
+		51316B331836E1D200FB9AC3 /* WECodeScannerMatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WECodeScannerMatchView.m; sourceTree = "<group>"; };
+		51316B341836E1D200FB9AC3 /* WECodeScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WECodeScannerView.h; sourceTree = "<group>"; };
+		51316B351836E1D200FB9AC3 /* WECodeScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WECodeScannerView.m; sourceTree = "<group>"; };
+		51316B361836E1D200FB9AC3 /* WESoundHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WESoundHelper.h; sourceTree = "<group>"; };
+		51316B371836E1D200FB9AC3 /* WESoundHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WESoundHelper.m; sourceTree = "<group>"; };
+		51316B381836E1D200FB9AC3 /* WEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEViewController.h; sourceTree = "<group>"; };
+		51316B391836E1D200FB9AC3 /* WEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEViewController.m; sourceTree = "<group>"; };
+		51316B421836EB3600FB9AC3 /* DataMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataMatrix.h; sourceTree = "<group>"; };
+		51316B431836EB3600FB9AC3 /* DataMatrix.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataMatrix.mm; sourceTree = "<group>"; };
+		51316B441836EB3600FB9AC3 /* QR_Encode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QR_Encode.cpp; sourceTree = "<group>"; };
+		51316B451836EB3600FB9AC3 /* QR_Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QR_Encode.h; sourceTree = "<group>"; };
+		51316B461836EB3600FB9AC3 /* QRCodeEncoderObjectiveCAtGithub-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QRCodeEncoderObjectiveCAtGithub-Prefix.pch"; sourceTree = "<group>"; };
+		51316B471836EB3600FB9AC3 /* QREncoder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QREncoder-Prefix.pch"; sourceTree = "<group>"; };
+		51316B481836EB3600FB9AC3 /* QREncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QREncoder.h; sourceTree = "<group>"; };
+		51316B491836EB3600FB9AC3 /* QREncoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QREncoder.mm; sourceTree = "<group>"; };
+		51316B4D1836ECA400FB9AC3 /* QRCodeEncoderDemoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QRCodeEncoderDemoViewController.mm; sourceTree = "<group>"; };
+		51316B4E1836ECA400FB9AC3 /* QRCodeEncoderDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeEncoderDemoViewController.h; sourceTree = "<group>"; };
+		516DFD4317E3C29E00AF2E28 /* smallCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smallCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516DFD4617E3C29E00AF2E28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		516DFD4817E3C29E00AF2E28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		516DFD4A17E3C29E00AF2E28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		516DFD4E17E3C29E00AF2E28 /* smallCrypt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "smallCrypt-Info.plist"; sourceTree = "<group>"; };
+		516DFD5017E3C29E00AF2E28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		516DFD5217E3C29E00AF2E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		516DFD5417E3C29E00AF2E28 /* smallCrypt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smallCrypt-Prefix.pch"; sourceTree = "<group>"; };
+		516DFD5517E3C29E00AF2E28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		516DFD5617E3C29E00AF2E28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		516DFD5917E3C29E00AF2E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516DFD6117E3C29E00AF2E28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		516DFD6717E3C29E00AF2E28 /* smallCryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallCryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516DFD6817E3C29E00AF2E28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		516DFD7017E3C29E00AF2E28 /* smallCryptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "smallCryptTests-Info.plist"; sourceTree = "<group>"; };
+		516DFD7217E3C29E00AF2E28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		516DFD7417E3C29E00AF2E28 /* smallCryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smallCryptTests.m; sourceTree = "<group>"; };
+		51F54DCF17E610B600FABF14 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		51F54DD117E610D600FABF14 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516DFD4017E3C29E00AF2E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F54DD217E610D600FABF14 /* MobileCoreServices.framework in Frameworks */,
+				51F54DD017E610B600FABF14 /* MessageUI.framework in Frameworks */,
+				516DFD4917E3C29E00AF2E28 /* CoreGraphics.framework in Frameworks */,
+				516DFD4B17E3C29E00AF2E28 /* UIKit.framework in Frameworks */,
+				516DFD4717E3C29E00AF2E28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DFD6417E3C29E00AF2E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516DFD6917E3C29E00AF2E28 /* XCTest.framework in Frameworks */,
+				516DFD6B17E3C29E00AF2E28 /* UIKit.framework in Frameworks */,
+				516DFD6A17E3C29E00AF2E28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51316B301836E1B900FB9AC3 /* codeScanControl */ = {
+			isa = PBXGroup;
+			children = (
+				51316B311836E1D200FB9AC3 /* WECodeScanner-Prefix.pch */,
+				51316B321836E1D200FB9AC3 /* WECodeScannerMatchView.h */,
+				51316B331836E1D200FB9AC3 /* WECodeScannerMatchView.m */,
+				51316B341836E1D200FB9AC3 /* WECodeScannerView.h */,
+				51316B351836E1D200FB9AC3 /* WECodeScannerView.m */,
+				51316B361836E1D200FB9AC3 /* WESoundHelper.h */,
+				51316B371836E1D200FB9AC3 /* WESoundHelper.m */,
+			);
+			name = codeScanControl;
+			sourceTree = "<group>";
+		};
+		51316B401836EB1F00FB9AC3 /* qrGeneratorControl */ = {
+			isa = PBXGroup;
+			children = (
+				51316B4D1836ECA400FB9AC3 /* QRCodeEncoderDemoViewController.mm */,
+				51316B4E1836ECA400FB9AC3 /* QRCodeEncoderDemoViewController.h */,
+				51316B411836EB3600FB9AC3 /* QRCodeEncoderObjectiveCAtGithub */,
+			);
+			name = qrGeneratorControl;
+			sourceTree = "<group>";
+		};
+		51316B411836EB3600FB9AC3 /* QRCodeEncoderObjectiveCAtGithub */ = {
+			isa = PBXGroup;
+			children = (
+				51316B421836EB3600FB9AC3 /* DataMatrix.h */,
+				51316B431836EB3600FB9AC3 /* DataMatrix.mm */,
+				51316B441836EB3600FB9AC3 /* QR_Encode.cpp */,
+				51316B451836EB3600FB9AC3 /* QR_Encode.h */,
+				51316B461836EB3600FB9AC3 /* QRCodeEncoderObjectiveCAtGithub-Prefix.pch */,
+				51316B471836EB3600FB9AC3 /* QREncoder-Prefix.pch */,
+				51316B481836EB3600FB9AC3 /* QREncoder.h */,
+				51316B491836EB3600FB9AC3 /* QREncoder.mm */,
+			);
+			path = QRCodeEncoderObjectiveCAtGithub;
+			sourceTree = "<group>";
+		};
+		516DFD3A17E3C29E00AF2E28 = {
+			isa = PBXGroup;
+			children = (
+				516DFD4C17E3C29E00AF2E28 /* smallCrypt */,
+				516DFD6E17E3C29E00AF2E28 /* smallCryptTests */,
+				516DFD4517E3C29E00AF2E28 /* Frameworks */,
+				516DFD4417E3C29E00AF2E28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516DFD4417E3C29E00AF2E28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516DFD4317E3C29E00AF2E28 /* smallCrypt.app */,
+				516DFD6717E3C29E00AF2E28 /* smallCryptTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516DFD4517E3C29E00AF2E28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51F54DD117E610D600FABF14 /* MobileCoreServices.framework */,
+				51F54DCF17E610B600FABF14 /* MessageUI.framework */,
+				516DFD4617E3C29E00AF2E28 /* Foundation.framework */,
+				516DFD4817E3C29E00AF2E28 /* CoreGraphics.framework */,
+				516DFD4A17E3C29E00AF2E28 /* UIKit.framework */,
+				516DFD6817E3C29E00AF2E28 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		516DFD4C17E3C29E00AF2E28 /* smallCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				516DFD5817E3C29E00AF2E28 /* Main.storyboard */,
+				516DFD5517E3C29E00AF2E28 /* AppDelegate.h */,
+				516DFD5617E3C29E00AF2E28 /* AppDelegate.m */,
+				51316B0718369E5100FB9AC3 /* EncryptTableControl.h */,
+				51316B0818369E5100FB9AC3 /* EncryptTableControl.mm */,
+				51316B2D1836DE1700FB9AC3 /* DecryptTableControl.h */,
+				51316B2E1836DE1700FB9AC3 /* DecryptTableControl.m */,
+				51316B381836E1D200FB9AC3 /* WEViewController.h */,
+				51316B391836E1D200FB9AC3 /* WEViewController.m */,
+				516DFD6117E3C29E00AF2E28 /* Images.xcassets */,
+				516DFD4D17E3C29E00AF2E28 /* Supporting Files */,
+			);
+			path = smallCrypt;
+			sourceTree = "<group>";
+		};
+		516DFD4D17E3C29E00AF2E28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51316B401836EB1F00FB9AC3 /* qrGeneratorControl */,
+				51316B301836E1B900FB9AC3 /* codeScanControl */,
+				510A6E681A28DADC002006B7 /* BEEP.mp3 */,
+				510A6E691A28DADC002006B7 /* icon58.png */,
+				510A6E6A1A28DADC002006B7 /* icon80.png */,
+				510A6E6B1A28DADC002006B7 /* iconNew.png */,
+				516DFD4E17E3C29E00AF2E28 /* smallCrypt-Info.plist */,
+				516DFD4F17E3C29E00AF2E28 /* InfoPlist.strings */,
+				516DFD5217E3C29E00AF2E28 /* main.m */,
+				516DFD5417E3C29E00AF2E28 /* smallCrypt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		516DFD6E17E3C29E00AF2E28 /* smallCryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				516DFD7417E3C29E00AF2E28 /* smallCryptTests.m */,
+				516DFD6F17E3C29E00AF2E28 /* Supporting Files */,
+			);
+			path = smallCryptTests;
+			sourceTree = "<group>";
+		};
+		516DFD6F17E3C29E00AF2E28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				516DFD7017E3C29E00AF2E28 /* smallCryptTests-Info.plist */,
+				516DFD7117E3C29E00AF2E28 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516DFD4217E3C29E00AF2E28 /* smallCrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516DFD7817E3C29E00AF2E28 /* Build configuration list for PBXNativeTarget "smallCrypt" */;
+			buildPhases = (
+				516DFD3F17E3C29E00AF2E28 /* Sources */,
+				516DFD4017E3C29E00AF2E28 /* Frameworks */,
+				516DFD4117E3C29E00AF2E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smallCrypt;
+			productName = smallCrypt;
+			productReference = 516DFD4317E3C29E00AF2E28 /* smallCrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516DFD6617E3C29E00AF2E28 /* smallCryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516DFD7B17E3C29E00AF2E28 /* Build configuration list for PBXNativeTarget "smallCryptTests" */;
+			buildPhases = (
+				516DFD6317E3C29E00AF2E28 /* Sources */,
+				516DFD6417E3C29E00AF2E28 /* Frameworks */,
+				516DFD6517E3C29E00AF2E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516DFD6D17E3C29E00AF2E28 /* PBXTargetDependency */,
+			);
+			name = smallCryptTests;
+			productName = smallCryptTests;
+			productReference = 516DFD6717E3C29E00AF2E28 /* smallCryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516DFD3B17E3C29E00AF2E28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Arnaud Crowther";
+				TargetAttributes = {
+					516DFD4217E3C29E00AF2E28 = {
+						DevelopmentTeam = VN892VAK63;
+					};
+					516DFD6617E3C29E00AF2E28 = {
+						TestTargetID = 516DFD4217E3C29E00AF2E28;
+					};
+				};
+			};
+			buildConfigurationList = 516DFD3E17E3C29E00AF2E28 /* Build configuration list for PBXProject "smallCrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516DFD3A17E3C29E00AF2E28;
+			productRefGroup = 516DFD4417E3C29E00AF2E28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516DFD4217E3C29E00AF2E28 /* smallCrypt */,
+				516DFD6617E3C29E00AF2E28 /* smallCryptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516DFD4117E3C29E00AF2E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516DFD6217E3C29E00AF2E28 /* Images.xcassets in Resources */,
+				516DFD5117E3C29E00AF2E28 /* InfoPlist.strings in Resources */,
+				510A6E6C1A28DADC002006B7 /* BEEP.mp3 in Resources */,
+				510A6E6E1A28DADC002006B7 /* icon80.png in Resources */,
+				516DFD5A17E3C29E00AF2E28 /* Main.storyboard in Resources */,
+				510A6E6D1A28DADC002006B7 /* icon58.png in Resources */,
+				510A6E6F1A28DADC002006B7 /* iconNew.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DFD6517E3C29E00AF2E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516DFD7317E3C29E00AF2E28 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516DFD3F17E3C29E00AF2E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51316B4F1836ECA400FB9AC3 /* QRCodeEncoderDemoViewController.mm in Sources */,
+				51316B0918369E5100FB9AC3 /* EncryptTableControl.mm in Sources */,
+				51316B3C1836E1D200FB9AC3 /* WESoundHelper.m in Sources */,
+				51316B4A1836EB3600FB9AC3 /* DataMatrix.mm in Sources */,
+				516DFD5717E3C29E00AF2E28 /* AppDelegate.m in Sources */,
+				51316B3A1836E1D200FB9AC3 /* WECodeScannerMatchView.m in Sources */,
+				516DFD5317E3C29E00AF2E28 /* main.m in Sources */,
+				51316B4C1836EB3600FB9AC3 /* QREncoder.mm in Sources */,
+				51316B3D1836E1D200FB9AC3 /* WEViewController.m in Sources */,
+				51316B4B1836EB3600FB9AC3 /* QR_Encode.cpp in Sources */,
+				51316B3B1836E1D200FB9AC3 /* WECodeScannerView.m in Sources */,
+				51316B2F1836DE1700FB9AC3 /* DecryptTableControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516DFD6317E3C29E00AF2E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516DFD7517E3C29E00AF2E28 /* smallCryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516DFD6D17E3C29E00AF2E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516DFD4217E3C29E00AF2E28 /* smallCrypt */;
+			targetProxy = 516DFD6C17E3C29E00AF2E28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		516DFD4F17E3C29E00AF2E28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516DFD5017E3C29E00AF2E28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		516DFD5817E3C29E00AF2E28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516DFD5917E3C29E00AF2E28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		516DFD7117E3C29E00AF2E28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516DFD7217E3C29E00AF2E28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		516DFD7617E3C29E00AF2E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		516DFD7717E3C29E00AF2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516DFD7917E3C29E00AF2E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smallCrypt/smallCrypt-Prefix.pch";
+				INFOPLIST_FILE = "smallCrypt/smallCrypt-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Arnaud/Documents/xCode\\ Projects/smallCrypt/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		516DFD7A17E3C29E00AF2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smallCrypt/smallCrypt-Prefix.pch";
+				INFOPLIST_FILE = "smallCrypt/smallCrypt-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Arnaud/Documents/xCode\\ Projects/smallCrypt/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		516DFD7C17E3C29E00AF2E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/smallCrypt.app/smallCrypt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smallCrypt/smallCrypt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "smallCryptTests/smallCryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		516DFD7D17E3C29E00AF2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/smallCrypt.app/smallCrypt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smallCrypt/smallCrypt-Prefix.pch";
+				INFOPLIST_FILE = "smallCryptTests/smallCryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516DFD3E17E3C29E00AF2E28 /* Build configuration list for PBXProject "smallCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516DFD7617E3C29E00AF2E28 /* Debug */,
+				516DFD7717E3C29E00AF2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516DFD7817E3C29E00AF2E28 /* Build configuration list for PBXNativeTarget "smallCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516DFD7917E3C29E00AF2E28 /* Debug */,
+				516DFD7A17E3C29E00AF2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516DFD7B17E3C29E00AF2E28 /* Build configuration list for PBXNativeTarget "smallCryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516DFD7C17E3C29E00AF2E28 /* Debug */,
+				516DFD7D17E3C29E00AF2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516DFD3B17E3C29E00AF2E28 /* Project object */;
+}
